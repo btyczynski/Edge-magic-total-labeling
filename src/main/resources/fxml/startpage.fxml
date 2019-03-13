@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="1020.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.si.put.poznan.edge.magic.total.labeling.FXMLController">
+  <children>
+    <Label layoutX="14.0" layoutY="14.0" prefHeight="40.0" prefWidth="195.0" text="Podaj liczbę wierzchołków: ">
+      <font>
+        <Font size="15.0" />
+      </font>
+    </Label>
+    <TextField fx:id="number" layoutX="14.0" layoutY="54.0" prefWidth="181.0" promptText="Podaj liczbę całkowitą" />
+    <Button contentDisplay="BOTTOM" layoutX="14.0" layoutY="90.0" mnemonicParsing="false" onAction="#handleButtonConfirm" prefWidth="181.0" text="Zatwierdź">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+    </Button>
+    <!--<Button layoutX="14.0" layoutY="366.0" mnemonicParsing="false" prefWidth="97.0" text="Wyczyść" />-->
+    <Pane layoutX="209.0" layoutY="14.0" prefHeight="372.0" prefWidth="377.0" />
+  </children>
+</AnchorPane>
